@@ -1,0 +1,69 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsla(220, 15%, 19%, 0.952);
+}
+
+.advice-details {
+    margin: 150px auto;
+    padding: 50px;
+    width: 350px;
+    background-color: hsl(216, 15%, 13%);
+    border-radius: 10px;
+}
+
+.advice-number {
+    color: hsla(150, 100%, 66%, 0.726);
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.quote {
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+
+.divider img {
+    width: 100%;
+}
+
+.generate-btn {
+    background-color: hsl(150, 100%, 66%);
+    width: 23px;
+    padding: 15px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: 75px;
+    cursor: pointer;
+}
+
+.generate-btn:hover {
+    background-color: hsl(150, 74%, 50%);
+}
+
+@media only screen and (max-width: 450px) {
+    .advice-details{
+        width: 300px;
+        margin: 120px auto;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .advice-details{
+        width: 250px;
+        margin: 120px auto;
+    }
+}
